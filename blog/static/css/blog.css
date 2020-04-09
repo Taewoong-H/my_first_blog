@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #ff9400;
+    background-color: #7e5dbb;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -15,7 +15,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 
 .date {
@@ -47,11 +47,19 @@ h1, h2, h3, h4 {
 }
 
 .btn-secondary{
-    position: relative;
+    position: static;
     float: right;
     margin-right: 5px;
 }
 
 #LoginHere{
     float: right;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
+}
+
+.grid{
+    display: grid;
 }
